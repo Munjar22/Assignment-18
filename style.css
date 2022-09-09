@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsite{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    background: aliceblue;
+    box-shadow: 1px solid gainsboro;
+    
+}
+.header img{
+    width: 30%;
+    float: left;
+}
+.header ul{
+    float: right;
+}
+.header ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.header ul li a{
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(./bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+.banner h4{
+    color: salmon;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.banner h1{
+    color: salmon;
+    font-weight: bolder;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.banner img{
+    width: 40px;
+    height: auto;
+}
+.banner a{
+    border-radius: 10px;
+}
+.banner a:hover{
+    background: orange;
+    color: gray;
+    border-radius: 10px;
+    transition: 1s;
+}
+.banner .btn2{
+    margin-left: 20px;
+}
+.start .box{
+    width: 350px;
+    padding-top: 100px;
+    text-align: left;
+}
+.start .box:hover{
+    width: 350px;
+    padding-top: 50px;
+    background: orange;
+}
+.start span{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.start .box1 li{
+    padding-top: 30px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+}
+.start .box1 i{
+    color: orange;
+    font-size: 30px;
+    font-weight:bolder;
+    padding: 0 20px;
+}
+.start .btn3{
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.start .btn:hover{
+    color: aliceblue;
+    background: orange;
+    border-radius: 10px;
+}
+.ourteam h1{
+    padding: 60px 0;
+}
+.ourteam img{
+    width: 100%;
+}
+.ourteam .box2{
+    width: 250px;
+    padding-top: 100px;
+    border-style: double;
+    border: 1px solid darkorange;
+}
+.ourteam .box3{
+    width: 250px;
+    margin-left: 20px;
+    padding-top: 100px;
+    border-style: double;
+    border: 1px solid darkorange;
+}
+.ourteam .box4{
+    width: 250px;
+    margin-left: 20px;
+    padding-top: 100px;
+    border-style: double;
+    border: 1px solid darkorange;
+}
+.ourteam .box5{
+    width: 250px;
+    margin-left: 20px;
+    padding-top: 100px;
+    border-style: double;
+    border: 1px solid darkorange;
+}
+.subscribe{
+    padding:80px;
+}
+.subscribe h1{
+    padding: 50px;
+    font-size: 60px;
+}
+.subscribe input{
+    height: 60px;
+    width: 450px;
+    border: 1px solid yellowgreen;
+}
+.subscribe .btn{
+    margin-top: 30px;
+    height: 60px;
+    width: 250px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+.subscribe .btn:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+.choose .col-6 h1{
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.choose .col-6 img{
+    width: 70%;
+}
+.choose .col-6{
+    margin: 50px 0;
+    font-size: 20px;
+}
+.about .col-4 p{
+    font-size: 20px;
+    padding: 10px;
+}
+.about .box6{
+    width: 350px;
+    height: 250px;
+    border: 1px solid aliceblue;
+}
+.about .box7{
+    width: 350px;
+    height: 300px;
+    margin-left: 20px;
+    border: 1px solid aliceblue;
+}
+.about .box8{
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+    border: 1px solid aliceblue;
+}
+.about .col-7 img{
+    box-shadow: lightgrey;
+    width: 65%;
+    border: 8px solid goldenrod;
+}
+.contact{
+    padding: 100px;
+
+}
+.contact h1{
+    font-size: 50px;
+}
+.contact p{
+    font-size: 20px;
+    width: 900px;
+}
+.contact .email{
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+}
+.contact .name{
+    height: 40px;
+    width: 245px;
+    border-radius: 5px;
+}
+.contact input{
+    border-color: goldenrod;
+    border-radius: 5px;
+}
+.contact textarea{
+    height: 200px;
+    width: 500px;
+    border-color: goldenrod;
+    border-radius: 5px;
+}
+.contact .btn{
+    height: 60px;
+    width: 200px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.contact .btn:hover{
+    color: black;
+    background-color: white;
+    border-color: goldenrod;
+}
+.footer b{
+    font-size: 22px;
+}
+
+
+
