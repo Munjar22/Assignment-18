@@ -62,42 +62,57 @@
 .banner .btn2{
     margin-left: 20px;
 }
-.start .box{
-    width: 350px;
-    padding-top: 100px;
-    text-align: left;
+.start{
+    padding: 100px;
 }
-.start .box:hover{
-    width: 350px;
-    padding-top: 50px;
-    background: orange;
+.start h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
 }
-.start span{
-    font-size: 60px;
+.start p{
+    padding:20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.start .priceinfo{
+    width: 350px;
+    padding: 5px 10px;
+    background-color: aliceblue;
+}
+.start .items{
+    width: 250px;
+}
+.start b{
+    font-size: 50px;
     font-weight: bolder;
 }
-.start .box1 li{
+.start .items ul{}
+.start .items ul li{
     padding-top: 30px;
     list-style-type: none;
     text-align: left;
     font-size: 20px;
 }
-.start .box1 i{
+.start .items ul li a{
+    text-decoration: none;
+}
+.start .items i{
     color: orange;
     font-size: 30px;
     font-weight:bolder;
-    padding: 0 20px;
+    width:20px;
+    margin-right: 25px;
 }
-.start .btn3{
-    height: 50px;
-    border-radius: 10px;
-    padding: 10px 20px;
+.start .col-4 .btn:hover{
+    color: white;
+    background-color: black !important;
 }
-.start .btn:hover{
-    color: aliceblue;
-    background: orange;
-    border-radius: 10px;
+.start .col-4:hover .priceinfo, .start .col-4:hover .btn{
+    color: white;
+    background-color: orange;
 }
+
 .ourteam h1{
     padding: 60px 0;
 }
